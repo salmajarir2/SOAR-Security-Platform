@@ -1,0 +1,73 @@
+sudo apt update
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt update
+apt-cache policy docker-ce
+
+sudo apt install docker-ce
+Run hello world docker
+We have successfully installed docker and the docker service is running on our system. Next we will show you how to run first hello world docker on your system. Execute following command on the terminal to run hello world docker:
+
+
+sudo docker run hello-world
+Above command will download hello-world docker image from public docker repository and run on your system. Here is the output of hello world docker:
+
+ser@user-VirtualBox:~/Desktop$ sudo docker run hello-world
+
+[sudo] password for user: 
+
+
+Hello from Docker!
+
+This message shows that your installation appears to be working correctly.
+
+
+To generate this message, Docker took the following steps:
+
+ 1. The Docker client contacted the Docker daemon.
+
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+
+    (amd64)
+
+ 3. The Docker daemon created a new container from that image which runs the
+
+    executable that produces the output you are currently reading.
+
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+
+ https://docs.docker.com/get-started/
+
+user@user-VirtualBox:~/Desktop$ 
+
+
+Installing docker compose
+
+You can install docker compose with following command:
+
+sudo apt install docker-compose
+You also install it with the following command sequences"
+
+
+mkdir -p ~/.docker/cli-plugins/
+
+curl -SL 
+https://github.com/docker/compose/releases/download/v2.29.7/docker-compose-linux-x86_64 
+-o ~/.docker/cli-plugins/docker-compose
+
+
+chmod +x ~/.docker/cli-plugins/docker-compose
+
