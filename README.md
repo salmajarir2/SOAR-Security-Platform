@@ -1,6 +1,11 @@
-# SOAR-Security-Platform
+# SOAR Integration Platform
 
-A comprehensive Security Orchestration, Automation and Response (SOAR) platform integrating Wazuh SIEM, TheHive case management, Cortex analyzers, and MISP threat intelligence for automated security incident response.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://python.org)
+[![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white)](https://docker.com)
+[![Security Rating](https://img.shields.io/badge/security-A-green.svg)](https://github.com/your-username/soar-platform)
+
+> **A comprehensive Security Orchestration, Automation and Response (SOAR) platform integrating Wazuh, TheHive, Cortex, and MISP for automated threat detection, analysis, and response.**
 
 
 ## 🏗️ Architecture
@@ -9,10 +14,10 @@ A comprehensive Security Orchestration, Automation and Response (SOAR) platform 
 
 | Component | Version | Purpose | Documentation |
 |-----------|---------|---------|---------------|
-| **Wazuh** | 4.7+ | SIEM & Security Monitoring | [📖 Wazuh Docs](docs/wazuh-setup.md) |
-| **TheHive** | 5.2+ | Case Management Platform | [📖 TheHive Docs](docs/thehive-setup.md) |
-| **Cortex** | 3.1+ | Analysis Engine | [📖 Cortex Docs](docs/cortex-setup.md) |
-| **MISP** | 2.4.170+ | Threat Intelligence Platform | [📖 MISP Docs](docs/misp-setup.md) |
+| **Wazuh** | 4.7+ | SIEM & Security Monitoring | 
+| **TheHive** | 5.2+ | Case Management Platform | 
+| **Cortex** | 3.1+ | Analysis Engine |
+| **MISP** | 2.4.170+ | Threat Intelligence Platform |
 
 <img width="1252" height="400" alt="pfa3" src="https://github.com/user-attachments/assets/656fa8bb-a2b7-45c1-90ce-96564a2b65e7" />
 
@@ -34,16 +39,7 @@ One of the main repositories used in this project is maintained by **Nextron Sys
 
 ![Source: Nextron Systems](https://img.shields.io/badge/IOC%20Source-Nextron%20Systems-blue?logo=github)
 
-# SOAR Integration Platform
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://python.org)
-[![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white)](https://docker.com)
-[![Security Rating](https://img.shields.io/badge/security-A-green.svg)](https://github.com/your-username/soar-platform)
-
-> **A comprehensive Security Orchestration, Automation and Response (SOAR) platform integrating Wazuh, TheHive, Cortex, and MISP for automated threat detection, analysis, and response.**
-
-![SOAR Workflow](assets/soar-workflow-diagram.png)
+![SOAR Workflow]
 
 ## 🎯 Overview
 
