@@ -12,14 +12,15 @@
 
 ### Core Components
 
-| Component | Version | Purpose | Documentation |
+| Component | Version | Purpose |
 |-----------|---------|---------|---------------|
 | **Wazuh** | 4.7+ | SIEM & Security Monitoring | 
 | **TheHive** | 5.2+ | Case Management Platform | 
 | **Cortex** | 3.1+ | Analysis Engine |
 | **MISP** | 2.4.170+ | Threat Intelligence Platform |
 
-<img width="1252" height="400" alt="pfa3" src="https://github.com/user-attachments/assets/656fa8bb-a2b7-45c1-90ce-96564a2b65e7" />
+<img width="1322" height="526" alt="pfa4" src="https://github.com/user-attachments/assets/d74aca6d-0c2a-44f5-8c10-dd70249cb0e1" />
+
 
 🚀 Features
 
