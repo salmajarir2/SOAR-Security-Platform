@@ -1,4 +1,6 @@
 Configuring and testing FIM on an Ubuntu machine
+
+
 FIM is a technology that monitors the integrity of system and application files. It safeguards sensitive
 data, application, and device files by routinely monitoring, scanning, and confirming their integrity. It
 works by detecting changes to mission-critical files in the network and as a result, it brings down the
