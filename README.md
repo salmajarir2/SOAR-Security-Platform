@@ -178,18 +178,6 @@ def update_threat_feeds():
 ```
 
 
-## 📚 Documentation
-
-- [Installation Guide](docs/installation.md)
-- [Configuration Reference](docs/configuration.md)
-- [API Documentation](docs/api.md)
-- [Playbook Development](docs/playbooks.md)
-- [Integration Examples](docs/integrations.md)
-- [Performance Tuning](docs/performance.md)
-- [Security Hardening](docs/security.md)
-
-
-
 ## 🙏 Acknowledgments
 
 - [ls111-cybersec] Thanks for ls111-cybersec for his customs
